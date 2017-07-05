@@ -10,4 +10,9 @@
 
 @interface CLConstants : NSObject
 
+extern NSString * const kSumAction;
+extern NSString * const kResAction;
+extern NSString * const kMulAction;
+extern NSString * const kDivAction;
+
 @end

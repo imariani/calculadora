@@ -10,4 +10,9 @@
 
 @implementation CLConstants
 
+NSString * const kSumAction = @"SUM";
+NSString * const kResAction = @"RES";
+NSString * const kMulAction = @"MUL";
+NSString * const kDivAction = @"DIV";
+
 @end

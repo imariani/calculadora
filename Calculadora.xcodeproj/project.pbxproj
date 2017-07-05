@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8262366D1EFD930500BF2276 /* CLCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 8262366C1EFD930500BF2276 /* CLCalculator.m */; };
+		826236701EFD959D00BF2276 /* CLConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 8262366F1EFD959D00BF2276 /* CLConstants.m */; };
 		82F513551EFBF858009C68B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F513541EFBF858009C68B4 /* main.m */; };
 		82F513581EFBF858009C68B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F513571EFBF858009C68B4 /* AppDelegate.m */; };
 		82F5135B1EFBF858009C68B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82F5135A1EFBF858009C68B4 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8262366B1EFD930500BF2276 /* CLCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCalculator.h; sourceTree = "<group>"; };
+		8262366C1EFD930500BF2276 /* CLCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCalculator.m; sourceTree = "<group>"; };
+		8262366E1EFD959D00BF2276 /* CLConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLConstants.h; sourceTree = "<group>"; };
+		8262366F1EFD959D00BF2276 /* CLConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLConstants.m; sourceTree = "<group>"; };
 		82F513501EFBF858009C68B4 /* Calculadora.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculadora.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82F513541EFBF858009C68B4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		82F513561EFBF858009C68B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				82F513571EFBF858009C68B4 /* AppDelegate.m */,
 				82F513591EFBF858009C68B4 /* ViewController.h */,
 				82F5135A1EFBF858009C68B4 /* ViewController.m */,
+				8262366B1EFD930500BF2276 /* CLCalculator.h */,
+				8262366C1EFD930500BF2276 /* CLCalculator.m */,
+				8262366E1EFD959D00BF2276 /* CLConstants.h */,
+				8262366F1EFD959D00BF2276 /* CLConstants.m */,
 				82F5135C1EFBF858009C68B4 /* Main.storyboard */,
 				82F5135F1EFBF858009C68B4 /* Assets.xcassets */,
 				82F513611EFBF858009C68B4 /* LaunchScreen.storyboard */,
@@ -277,7 +287,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				82F5135B1EFBF858009C68B4 /* ViewController.m in Sources */,
+				826236701EFD959D00BF2276 /* CLConstants.m in Sources */,
 				82F513581EFBF858009C68B4 /* AppDelegate.m in Sources */,
+				8262366D1EFD930500BF2276 /* CLCalculator.m in Sources */,
 				82F513551EFBF858009C68B4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,6 +528,7 @@
 				82F5137F1EFBF858009C68B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F513801EFBF858009C68B4 /* Build configuration list for PBXNativeTarget "CalculadoraTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +537,7 @@
 				82F513821EFBF858009C68B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		82F513831EFBF858009C68B4 /* Build configuration list for PBXNativeTarget "CalculadoraUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +546,7 @@
 				82F513851EFBF858009C68B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
